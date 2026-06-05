@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f4f7;
+    padding:50px 20px;
+}
+
+.pricing-section{
+    max-width:1200px;
+    margin:auto;
+    text-align:center;
+}
+
+.subtitle{
+    color:#6c63ff;
+    font-weight:600;
+    margin-bottom:10px;
+}
+
+.pricing-section h1{
+    font-size:42px;
+    margin-bottom:50px;
+}
+
+.pricing-container{
+    display:flex;
+    gap:30px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#fff;
+    width:350px;
+    padding:25px;
+    border-radius:20px;
+   
+    position:relative;
+    text-align:left;
+}
+
+.top-box{
+    background:#f1ecff;
+    border-radius:16px;
+    padding:25px;
+    text-align:center;
+}
+
+.top-box h2{
+    margin-bottom:15px;
+    font-size:32px;
+}
+
+.top-box p{
+    color:#666;
+    line-height:1.6;
+    margin-bottom:25px;
+}
+
+.top-box h3{
+    font-size:30px;
+    margin-bottom:8px;
+}
+
+.top-box span{
+    display:block;
+    color:#777;
+    margin-bottom:20px;
+}
+
+button{
+    width:100%;
+    border:none;
+    padding:15px;
+    border-radius:30px;
+    background:#6c63ff;
+    color:#fff;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.card h4{
+    margin:25px 0 20px;
+    font-size:24px;
+}
+
+ul{
+    list-style:none;
+}
+
+ul li{
+    margin-bottom:15px;
+    color:#555;
+    position:relative;
+    padding-left:28px;
+}
+
+ul li::before{
+    content:"✓";
+    position:absolute;
+    left:0;
+    color:#6c63ff;
+    font-weight:bold;
+}
+
+.badge{
+    position:absolute;
+    top:0px;
+    left:112px;
+   
+    background:#ffd84d;
+    padding:8px 18px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:600;
+}
+
