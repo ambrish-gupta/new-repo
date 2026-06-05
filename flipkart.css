@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14…32,100…900;1,14…32,100…900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.main-container {
+    background-color: white;
+    height: 200vh;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    /* border: 1px solid blue; */
+}
+
+.navbar-container {
+    padding: auto;
+    height: 13vh;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.right-nav-content {
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.right-nav-content span {
+    color: blue;
+}
+
+.left-nav-content {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.flipkart-btn {
+    background-color: #FFE51F;
+    padding: 16px 30px;
+    border-radius: 10px;
+    color: black;
+    font-size: small;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.flipkart-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+.travel-btn {
+    background-color: #F0F0F0;
+    padding: 16px 30px;
+    border-radius: 10px;
+    color: black;
+    font-size: small;
+    font-weight: 600;
+
+}
+
+.travel-btn img {
+    height: 20px;
+    width: 20px;
+}
+
+.search-bar-container {
+    border: 1px;
+    display: flex;
+    gap: 100px;
+    padding-right: 40px;
+}
+
+.searchbar-right {
+    width: 15vw;
+    display: flex;
+    gap: 40px;
+}
+
+.searchbar-div {
+
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 8px 20px;
+    width: 55vw;
+}
+
+.searchbar-div input {
+    border: none;
+    width: 30vw;
+    padding: 4px 8px;
+}
+
+.searchbar-div i {
+    font: 20px;
+    opacity: 0.6;
+}
+
+.main-nav {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-nav-bottom {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopping {
+    background: #2ecbff;
+    /* color:black; */
+    padding: 18px;
+    border-radius: 20px;
+    width: 95%;
+    margin: 30px auto;
+}
+
+.shopping h2 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.shop-container {
+    background: white;
+    border-radius: 16px;
+    padding: 15px;
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.product-card {
+    min-width: 250px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.img-box {
+    background: #f1f1f1;
+    border-radius: 10px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-box img {
+    width: 280px;
+    height: 240px;
+}
+
+.title {
+    font-size: 22px;
+    border-radius: 10px;
+    background-color: #FFE51F;
+}
+
+.offer {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.slide {
+    height: 30vh;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.img {
+    border-radius: 13px;
+}
+
+.footer {
+    padding-top: 40px;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+
+}
+
+.foot-cont {
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 80px;
+}

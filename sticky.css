@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.main {
+    background-color: #e3e6e6;
+    height: 300vh;
+}
+
+.page1 {
+    height: 100vh;
+
+    display: flex;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(46, 27, 42);
+    margin: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+#box1 {
+    position: sticky;
+    left: 10px;
+    top: 20px;
+}
+
+#box2 {
+    position: fixed;
+    left: 120px;
+    margin: 20px;
+    margin-left: 150px;
+}
+
+.page2 {
+    height: 100vh;
+
+    display: flex;
+}
